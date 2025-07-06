@@ -1,0 +1,75 @@
+cat <<EOF > .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+car_racing_env/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Python environment files
+*.env
+.env/
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+
+# Logs and local files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Test and coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# mypy
+.mypy_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Local Django/Python server stuff
+*.sqlite3
+db.sqlite3
+EOF
+car_racing_env/
